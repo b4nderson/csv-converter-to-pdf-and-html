@@ -1,5 +1,5 @@
-import ejs from "ejs"
-import { resolve } from "path"
+const ejs = require("ejs")
+const { resolve } = require("path")
 
 class HtmlParser {
 
@@ -9,4 +9,4 @@ class HtmlParser {
 
 }
 
-export default HtmlParser
+module.exports = HtmlParser

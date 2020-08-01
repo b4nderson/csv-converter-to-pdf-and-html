@@ -1,4 +1,4 @@
-import { readFileSync } from "fs"
+const { readFileSync } = require("fs")
 
 class Reader {
 
@@ -16,4 +16,4 @@ class Reader {
 
 }
 
-export default Reader
+module.exports = Reader

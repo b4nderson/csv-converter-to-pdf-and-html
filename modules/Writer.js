@@ -1,4 +1,4 @@
-import { writeFileSync } from "fs"
+const { writeFileSync } = require("fs")
 
 class Writer {
 
@@ -17,4 +17,4 @@ class Writer {
 
 }
 
-export default Writer
+module.exports = Writer

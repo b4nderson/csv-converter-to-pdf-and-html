@@ -2,8 +2,7 @@
   "name": "csv-converter-to-pdf-and-html",
   "version": "1.0.0",
   "description": "Convertendo excel (csv) para HTML e PDF",
-  "main": "converter.js",
-  "type": "module",
+  "main": "Converter.js",
   "scripts": {
     "start": "node ."
   },

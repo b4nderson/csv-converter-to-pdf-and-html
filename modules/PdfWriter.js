@@ -1,5 +1,5 @@
-import htmlPdf from "html-pdf-node"
-import { writeFileSync } from "fs"
+const htmlPdf = require("html-pdf-node")
+const { writeFileSync } = require("fs")
 
 class PdfWriter {
 
@@ -22,4 +22,4 @@ class PdfWriter {
 
 }
 
-export default PdfWriter
+module.exports = PdfWriter

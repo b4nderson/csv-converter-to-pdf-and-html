@@ -16,4 +16,4 @@ class Table {
 
 }
 
-export default Table
+module.exports = Table

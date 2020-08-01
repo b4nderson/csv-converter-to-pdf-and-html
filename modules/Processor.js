@@ -15,4 +15,4 @@ class Processor {
 
 }
 
-export default Processor
+module.exports = Processor

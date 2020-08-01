@@ -1,9 +1,9 @@
-import Reader from "./modules/Reader.js"
-import Processor from  "./modules/Processor.js"
-import Table from "./modules/Table.js"
-import HtmlParser from "./modules/HtmlParser.js"
-import Writer from "./modules/Writer.js"
-import PdfWriter from "./modules/PdfWriter.js"
+const Reader = require("./modules/Reader.js")
+const Processor = require("./modules/Processor.js")
+const Table = require("./modules/Table.js")
+const HtmlParser = require("./modules/HtmlParser.js")
+const Writer = require("./modules/Writer.js")
+const PdfWriter = require("./modules/PdfWriter.js")
 
 class Converter {
     async ProcessingToHTML(filePath) {
@@ -37,4 +37,4 @@ class Converter {
     }
 }
 
-export default Converter
+module.exports = Converter
